@@ -1,6 +1,6 @@
 #!/bin/bash -e
 
-FASTBOOT=platform-tools/fastboot
+FASTBOOT=$(pwd)/platform-tools/fastboot
 
 VERSION="r28.0.2"
 PLATFORM="$(uname -s | tr '[:upper:]' '[:lower:]')"
